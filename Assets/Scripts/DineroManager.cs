@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DineroManager : MonoBehaviour
 {
+    public UIManager UiManager;
     public float playerMoney;
 
     public void UpdateMoney(float amount)
