@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DineroManager : MonoBehaviour
+public class HealthManager : MonoBehaviour
 {
     public UIManager UiManager;
-    public float playerMoney;
+    public float playerHealth;
 
-    public bool UpdateMoney(float amount)
+    public bool UpdateHealth(float amount)
     {
 
-        if (playerMoney + amount < 0)
+        if (playerHealth + amount < 0)
         {
-            Debug.Log("No te alcanza la plata");
+            Debug.Log("You are dead xd");
             //Impide la compra
             return false;
         }
         else
         {
-            playerMoney += amount;
+            playerHealth += amount;
             return true;
         }
     }
