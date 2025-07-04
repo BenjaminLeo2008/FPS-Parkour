@@ -16,7 +16,6 @@ public class Damage : MonoBehaviour
         {
             //restar precio al dinero del player
             healthManager.UpdateHealth(-damage);
-            Destroy(gameObject);
 
         }
     }
