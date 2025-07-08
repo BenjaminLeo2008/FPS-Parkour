@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 7960345813471396889}
   - component: {fileID: 2694657311527860051}
   - component: {fileID: 635219801934076148}
+  - component: {fileID: 6923427880501793879}
   m_Layer: 0
   m_Name: Caja2Prefab 2
   m_TagString: Untagged
@@ -152,4 +153,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5b95c82f16c6ff46b6623b8071b2a30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePoints: 0
+  precio: 15
+  dineroManager: {fileID: 0}
+--- !u!114 &6923427880501793879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674543873847768468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41adb771bf6f0e14cb750f5300caa0ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  healthManager: {fileID: 0}

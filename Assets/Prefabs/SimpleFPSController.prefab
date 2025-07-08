@@ -58,6 +58,8 @@ GameObject:
   - component: {fileID: 8301348219259879421}
   - component: {fileID: 8301348219261093245}
   - component: {fileID: 6124970032775768211}
+  - component: {fileID: 7967889511799344186}
+  - component: {fileID: 2256634521309108376}
   m_Layer: 0
   m_Name: SimpleFPSController
   m_TagString: Player
@@ -347,6 +349,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deadFallHeight: -15
+--- !u!114 &7967889511799344186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301348219256675485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede561ce4e0142742872e25b22f73bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiManager: {fileID: 0}
+  playerHealth: 100
+--- !u!114 &2256634521309108376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301348219256675485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a220304aee9e97049a73e9dc1339f166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiManager: {fileID: 0}
+  playerMoney: 1000
 --- !u!1 &8301348219256675487
 GameObject:
   m_ObjectHideFlags: 0
